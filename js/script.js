@@ -24,9 +24,10 @@ const sr = ScrollReveal ({
     reset: true
 });
 
-sr.reveal('.hero-text',{origin: 'top'});
+sr.reveal('.hero-text, .home-img',{origin: 'top'});
 sr.reveal('.about-img, .service-item, .about-text',{origin: 'bottom'});
-sr.reveal('.about-text h2, .text-center, .right-contact h2',{origin: 'top'});
-sr.reveal('.left-contact',{origin: 'left'});
-sr.reveal('.right-contact, .home-img',{origin: 'right'});
+sr.reveal('.about-text h2, .text-center, .right-contact h2, .contact-in',{origin: 'top'});
+sr.reveal('.left-contact, .contact-map',{origin: 'left'});
+sr.reveal('.right-contact, .contact-form',{origin: 'right'});
 sr.reveal('.end-section',{origin: 'top'});
+
