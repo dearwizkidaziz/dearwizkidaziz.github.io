@@ -539,7 +539,7 @@ span{
         grid-template-columns: repeat(auto-fit, minmax(350px, auto));
     }
     .contact{
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
     }
     .left-contact{
         margin: auto;
@@ -597,6 +597,7 @@ span{
     }
     .left-contact{
         gap: 2rem;
+        display: grid;
     }
     .in i{
         font-size: 80px;
